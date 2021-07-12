@@ -51,11 +51,11 @@ function getMovie(){
           </div>
           <div class="col-md-8">
             <h2>${movie.title}</h2>
-             $("body").append( "
+            
                     <video width="320" height="240" autoplay>
                         <source src='"https://v2.vidsrc.me/embed/${movie.imdb_id}"'>
                     </video>
-                " );
+
             <ul class="list-group">
               <li class="list-group-item"><strong>Genre:</strong> ${movie.genres[0].name}, ${movie.genres[1].name}</li>
               <li class="list-group-item"><strong>Released:</strong> ${movie.release_date}</li>
