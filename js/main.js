@@ -53,7 +53,7 @@ function getMovie(){
             <h2>${movie.title}</h2>
              $("body").append( "
                     <video width="320" height="240" autoplay>
-                        <source src='"https://v2.vidsrc.me/embed/${movie.id}"'>
+                        <source src='"https://v2.vidsrc.me/embed/${movie.imdb_id}"'>
                     </video>
                 " );
             <ul class="list-group">
