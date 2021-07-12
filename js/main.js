@@ -52,8 +52,7 @@ function getMovie(){
           <div class="col-md-8">
             <h2>${movie.title}</h2>
             <br>
-<iframe width="560" height="315" data-src="https://v2.vidsrc.me/embed/${movie.imdb_id}" frameborder="0" allowfullscreen="1" 
-src="https://v2.vidsrc.me/embed/${movie.imdb_id}"></iframe>
+<iframe width="560" height="315" data-src="https://v2.vidsrc.me/embed/${movie.imdb_id}" frameborder="0" allowfullscreen="1" src="https://v2.vidsrc.me/embed/${movie.imdb_id}"></iframe>
 
             <ul class="list-group">
               <li class="list-group-item"><strong>Genre:</strong> ${movie.genres[0].name}, ${movie.genres[1].name}</li>
