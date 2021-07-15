@@ -12,7 +12,6 @@
   }
   
  input[type="text"], textarea {
-
-  background-color : #d1d1d1
+    background-color : #d1d1d1;
   }
 }
