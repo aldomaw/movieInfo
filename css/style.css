@@ -10,4 +10,9 @@
   #movies .col-md-3 img{
     height: 90%;
   }
+  
+ input[type="text"], textarea {
+
+  background-color : #d1d1d1
+  }
 }
